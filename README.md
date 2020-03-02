@@ -49,6 +49,22 @@ SIMULATION кнопку Run.
 использования при нахождении передаточной функции мотора EV3
 + ParameterEstimationForLine.slx - модель датчика цвета для движения по линии
 
+# Как скачать
+
+Выполните в MATLAB
+
+```MATLAB
+eval(webread('https://git.io/Jv24V'))
+```
+
+ИЛИ
+
+- [Скачайте архив](https://github.com/ETMC-Exponenta/EV3-Tracker/archive/master.zip)
+- Распакуйте
+- Откройте в MATLAB файл *EV3-Tracker.prj*
+
+
+
 # Дополнительная информация
 Все модели можно запустить из проекта во вкладке PROJECT SHORTCUTS:
 + В графе MODELS представлены все проекты
