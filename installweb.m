@@ -4,12 +4,12 @@ instvar.Name = 'EV3-Tracker';
 fprintf('Downloading %s...\n', instvar.Name);
 websave(instvar.Name, instvar.URL);
 disp('Installing...')
-disp('Download complete, installing...')
+disp('Download complete, unpacking...')
 instvar.Fs = unzip(instvar.Name);
 instvar.DName = instvar.Fs{1}(1:end-1);
 movefile(instvar.DName, instvar.Name);
 cd(instvar.Name)
-disp('Install complete, have fun!')
+disp('Unpucking complete, have fun!')
 clear instvar
 % Post-install tasks
-open('EV3-Tracker.prj')
+open('EV3_Tracker.prj')
